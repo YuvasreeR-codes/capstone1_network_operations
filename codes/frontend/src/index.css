@@ -1,0 +1,42 @@
+.date-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.date-filter label {
+    font-weight: bold;
+}
+
+.date-filter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.date-filter button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.status {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.error {
+    padding: 20px;
+    background: #ffe5e5;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.summary-meta {
+    margin-top: 20px;
+    color: #666;
+}

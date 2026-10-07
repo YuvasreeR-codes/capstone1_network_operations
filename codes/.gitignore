@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data files
+*.csv
+*.parquet
+
+# # Generated output
+
+parquet_output/
+output/
+data/
+dag_output/
+# VS Code
+.vscode/
+
+# Airflow
+airflow.db
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+logs/
+*.pid
+__pycache__/
+.env
